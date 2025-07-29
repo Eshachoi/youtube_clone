@@ -214,6 +214,7 @@
     .video_info_area {
         display: flex;
         flex-direction: row;
+        padding: 20px 0;
     }
         
     .video_description {
@@ -241,17 +242,111 @@
         font-size: 14px;
         margin-left: 40px;
     }
+
+    .btn_container {
+        display: flex;
+        justify-content: flex-end;
+        border: none;
+    }
+
     .like_btn {
         width: 87.92px;
         height: 36px;
-        border-radius: 50px;
-    }
-    
-    .like_btn .thumbs_up {
-        
-        padding: 16px;
+        border-radius: 40px 0 0 40px;
         border: 1px solid #e2e1e1;
-        color: #444;
-        border-radius: 50px;
-
+        margin-left: 130px;
+        font-size: 17px;
+        gap: 9px;
+        color: #555;
     }
+   
+
+    .dislike_btn {
+        width: 52px;
+        height: 36px;
+        border-radius: 0 40px 40px 0;
+        border: 1px solid #e2e1e1;
+        font-size: 17px;
+        color: #555;
+    }
+
+   .share_btn {
+    width: 80px;
+    height: 36px;
+    margin: 0 30px;
+    border-radius: 40px;
+    border: 1px solid #e2e1e1;
+    color: #555;
+   }
+
+   .download {
+    width: 132px;
+    height: 36px;
+    margin: 0;
+    border-radius: 40px;
+    border: 1px solid #e2e1e1;
+    color: #555;
+   }
+   
+   .download i {
+    display: flex;
+    line-height: 36px;
+    gap: 10px;
+   }
+   
+   .download p {
+    font-size: 16px;
+    font-weight: 600;
+   }
+
+   .book_mark {
+    width: 80px;
+    height: 36px;
+    margin: 0 25px;
+    padding-left: 9px;
+    border: 1px solid #e2e1e1;
+    border-radius: 40px;
+   }
+   .book_mark i {
+    display: flex;
+    gap: 10px;
+   }
+
+   .book_mark p{
+    font-size: 16px;
+    font-weight: 600;
+   }
+
+   .etc {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #e2e1e1;
+    border-radius: 50px;
+   }
+
+ .reply_container {
+    display: flex;
+ }
+
+ .reply_user_icon img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    margin-right: 10px;
+ }
+ .reply_container h4 {
+    width: 1325px;
+    height: 25px;
+    padding-left: 10px;
+    border-bottom: 1px solid #e2e1e1;
+    cursor: pointer;
+    color: #555;
+ }
+
+
+
+
+
+
+
+
